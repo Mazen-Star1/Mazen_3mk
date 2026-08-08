@@ -1,0 +1,109 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #eef4f8;
+    color: #243447;
+    margin: 0;
+    padding: 20px;
+}
+
+#h1 {
+    text-align: center;
+    color: #12355b;
+    margin-bottom: 25px;
+}
+
+.AboutUs {
+    text-align: center;
+    color: #1976a8;
+    margin-top: 25px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.video {
+    width: 70%;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    text-align: center;
+    line-height: 1.6;
+    color: #40566b;
+    font-size: 16px;
+}
+
+.h3 {
+    color: #1976a8;
+}
+
+.List {
+    color: #40566b;
+    line-height: 1.8;
+}
+
+mark {
+    background-color: #bde0fe;
+    color: #12355b;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+#form {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 2px solid #1976a8;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    color: #12355b;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    color: #243447;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #9db7c9;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1976a8;
+}
+
+button {
+    display: block;
+    margin: 20px auto 5px;
+    padding: 11px 30px;
+    background-color: #1976a8;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #12355b;
+}

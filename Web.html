@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web.css">
+    <title>My Website</title>
+</head>
+
+<body>
+
+    <h1 id="h1">Welcome To My Website</h1>
+
+    <h2 class="AboutUs">About Us</h2>
+
+    <div class="video-container">
+        <video class="video" controls autoplay muted loop>
+            <source src="ban.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <p>
+        Hi, user. We are happy to see you here on our website.
+        We are a team of developers.
+    </p>
+
+    <h3 class="h3">Founders:</h3>
+
+    <ul class="List">
+        <li>Mazen</li>
+        <li>John</li>
+        <li>Kemo</li>
+        <li>Roody</li>
+    </ul>
+
+    <h3 class="h3">Skills:</h3>
+
+    <ul class="List">
+        <li>Mazen --- <mark>Web Development</mark></li>
+        <li>John --- <mark>IT</mark></li>
+        <li>Kemo --- <mark>Digital Design</mark></li>
+        <li>Roody --- <mark>Cyber Security</mark></li>
+    </ul>
+
+    <h2 class="AboutUs">Contact / Log In</h2>
+
+    <fieldset id="form">
+        <legend>Log In</legend>
+
+        <form>
+            <label for="user">Username</label>
+            <div>
+                <input type="text" id="user" name="username"
+                       required placeholder="Enter Username">
+            </div>
+
+            <label for="pass">Password</label>
+            <div>
+                <input type="password" id="pass" name="password"
+                       required placeholder="Must be 8+ characters">
+            </div>
+
+            <label for="email">Email</label>
+            <div>
+                <input type="email" id="email" name="email"
+                       value="mazenhaytham1@yahoo.com" required>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </fieldset>
+
+</body>
+</html>
